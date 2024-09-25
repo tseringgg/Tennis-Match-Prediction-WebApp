@@ -1,0 +1,683 @@
+﻿@model IEnumerable<TennisData.Models.MatchRecord>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.tny_id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.tny_name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.surface)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.draw_size)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.tny_date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.match_num)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.score)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.best_of)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.is_gs)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.match_year)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.match_month)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.avg_52_s)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.avg_52_r)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.sf_avg_52_s)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.sf_avg_52_r)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.tny_stats)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.w_commop_match_prob)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.winner)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_elo_538)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_elo_538)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_sf_elo_538)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_sf_elo_538)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_swon)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_swon)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_svpt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_svpt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_rwon)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_rwon)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_rpt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_rpt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_52_swon)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_52_swon)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_52_svpt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_52_svpt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_52_rwon)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_52_rwon)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_52_rpt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_52_rpt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_sf_52_swon)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_sf_52_swon)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_sf_52_svpt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_sf_52_svpt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_sf_52_rwon)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_sf_52_rwon)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_sf_52_rpt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_sf_52_rpt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_52_s_adj)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_52_s_adj)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_52_r_adj)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_52_r_adj)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_s_pct)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_r_pct)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_sf_s_pct)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_sf_r_pct)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_s_pct)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_r_pct)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_sf_s_pct)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_sf_r_pct)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_commop_s_pct)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_commop_s_pct)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_commop_r_pct)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_commop_r_pct)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.elo_diff)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.sf_elo_diff)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_s_pct_obsv)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_s_pct_obsv)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_s_pct_EM)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_s_pct_EM)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_r_pct_EM)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_r_pct_EM)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_sf_s_pct_EM)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_sf_s_pct_EM)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_sf_r_pct_EM)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_sf_r_pct_EM)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_52_s_adj_EM)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_52_s_adj_EM)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_52_r_adj_EM)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_52_r_adj_EM)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.match_id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_s_kls)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_s_kls)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_s_kls_EM)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_s_kls_EM)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_s_sf_kls)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_s_sf_kls)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_s_sf_kls_EM)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_s_sf_kls_EM)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_s_adj_kls)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_s_adj_kls)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_s_adj_kls_EM)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_s_adj_kls_EM)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_s_commop_kls)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_s_commop_kls)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_s_baseline)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_s_baseline)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.match_prob_kls)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.match_prob_kls_EM)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.match_prob_sf_kls)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.match_prob_sf_kls_EM)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.match_prob_adj_kls)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.match_prob_adj_kls_EM)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.match_prob_commop_kls)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.match_prob_commop)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.elo_prob)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.sf_elo_prob)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p0_s_kls_elo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.p1_s_kls_elo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.tny_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tny_name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.surface)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.draw_size)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tny_date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.match_num)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.score)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.best_of)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.is_gs)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.match_year)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.match_month)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.avg_52_s)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.avg_52_r)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.sf_avg_52_s)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.sf_avg_52_r)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tny_stats)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.w_commop_match_prob)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.winner)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_elo_538)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_elo_538)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_sf_elo_538)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_sf_elo_538)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_swon)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_swon)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_svpt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_svpt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_rwon)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_rwon)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_rpt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_rpt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_52_swon)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_52_swon)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_52_svpt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_52_svpt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_52_rwon)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_52_rwon)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_52_rpt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_52_rpt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_sf_52_swon)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_sf_52_swon)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_sf_52_svpt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_sf_52_svpt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_sf_52_rwon)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_sf_52_rwon)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_sf_52_rpt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_sf_52_rpt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_52_s_adj)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_52_s_adj)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_52_r_adj)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_52_r_adj)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_s_pct)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_r_pct)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_sf_s_pct)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_sf_r_pct)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_s_pct)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_r_pct)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_sf_s_pct)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_sf_r_pct)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_commop_s_pct)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_commop_s_pct)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_commop_r_pct)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_commop_r_pct)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.elo_diff)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.sf_elo_diff)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_s_pct_obsv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_s_pct_obsv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_s_pct_EM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_s_pct_EM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_r_pct_EM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_r_pct_EM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_sf_s_pct_EM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_sf_s_pct_EM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_sf_r_pct_EM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_sf_r_pct_EM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_52_s_adj_EM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_52_s_adj_EM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_52_r_adj_EM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_52_r_adj_EM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.match_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_s_kls)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_s_kls)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_s_kls_EM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_s_kls_EM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_s_sf_kls)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_s_sf_kls)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_s_sf_kls_EM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_s_sf_kls_EM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_s_adj_kls)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_s_adj_kls)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_s_adj_kls_EM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_s_adj_kls_EM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_s_commop_kls)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_s_commop_kls)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_s_baseline)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_s_baseline)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.match_prob_kls)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.match_prob_kls_EM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.match_prob_sf_kls)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.match_prob_sf_kls_EM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.match_prob_adj_kls)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.match_prob_adj_kls_EM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.match_prob_commop_kls)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.match_prob_commop)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.elo_prob)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.sf_elo_prob)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p0_s_kls_elo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.p1_s_kls_elo)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
