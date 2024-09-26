@@ -3,40 +3,47 @@
   "WorkspaceRootPath": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{83BB54F3-D4FB-46E9-AD8B-58AAA74D2091}|TennisData\\TennisData.csproj|c:\\users\\jorje\\source\\repos\\tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-tennisdata\\tennisdata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83BB54F3-D4FB-46E9-AD8B-58AAA74D2091}|TennisData\\TennisData.csproj|solutionrelative:tennisdata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{83BB54F3-D4FB-46E9-AD8B-58AAA74D2091}|TennisData\\TennisData.csproj|c:\\users\\jorje\\source\\repos\\tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-tennisdata\\tennisdata\\controllers\\matchrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83BB54F3-D4FB-46E9-AD8B-58AAA74D2091}|TennisData\\TennisData.csproj|solutionrelative:tennisdata\\controllers\\matchrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83BB54F3-D4FB-46E9-AD8B-58AAA74D2091}|TennisData\\TennisData.csproj|c:\\users\\jorje\\source\\repos\\tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-tennisdata\\tennisdata\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{83BB54F3-D4FB-46E9-AD8B-58AAA74D2091}|TennisData\\TennisData.csproj|solutionrelative:tennisdata\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83BB54F3-D4FB-46E9-AD8B-58AAA74D2091}|TennisData\\TennisData.csproj|c:\\users\\jorje\\source\\repos\\tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-tennisdata\\tennisdata\\models\\matchrecordcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83BB54F3-D4FB-46E9-AD8B-58AAA74D2091}|TennisData\\TennisData.csproj|solutionrelative:tennisdata\\models\\matchrecordcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83BB54F3-D4FB-46E9-AD8B-58AAA74D2091}|TennisData\\TennisData.csproj|c:\\users\\jorje\\source\\repos\\tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-tennisdata\\tennisdata\\models\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83BB54F3-D4FB-46E9-AD8B-58AAA74D2091}|TennisData\\TennisData.csproj|solutionrelative:tennisdata\\models\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83BB54F3-D4FB-46E9-AD8B-58AAA74D2091}|TennisData\\TennisData.csproj|c:\\users\\jorje\\source\\repos\\tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-tennisdata\\tennisdata\\models\\matchrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83BB54F3-D4FB-46E9-AD8B-58AAA74D2091}|TennisData\\TennisData.csproj|solutionrelative:tennisdata\\models\\matchrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83BB54F3-D4FB-46E9-AD8B-58AAA74D2091}|TennisData\\TennisData.csproj|c:\\users\\jorje\\source\\repos\\tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-tennisdata\\tennisdata\\controllers\\todoitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83BB54F3-D4FB-46E9-AD8B-58AAA74D2091}|TennisData\\TennisData.csproj|solutionrelative:tennisdata\\controllers\\todoitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83BB54F3-D4FB-46E9-AD8B-58AAA74D2091}|TennisData\\TennisData.csproj|c:\\users\\jorje\\source\\repos\\tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-tennisdata\\tennisdata\\models\\configurations\\matchrecordconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83BB54F3-D4FB-46E9-AD8B-58AAA74D2091}|TennisData\\TennisData.csproj|solutionrelative:tennisdata\\models\\configurations\\matchrecordconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{83BB54F3-D4FB-46E9-AD8B-58AAA74D2091}|TennisData\\TennisData.csproj|c:\\users\\jorje\\source\\repos\\tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-tennisdata\\tennisdata\\profiles\\matchrecordprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83BB54F3-D4FB-46E9-AD8B-58AAA74D2091}|TennisData\\TennisData.csproj|solutionrelative:tennisdata\\profiles\\matchrecordprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83BB54F3-D4FB-46E9-AD8B-58AAA74D2091}|TennisData\\TennisData.csproj|c:\\users\\jorje\\source\\repos\\tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-tennisdata\\tennisdata\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83BB54F3-D4FB-46E9-AD8B-58AAA74D2091}|TennisData\\TennisData.csproj|solutionrelative:tennisdata\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCC577BD-AD2C-49D2-829B-6B51E9CD2AF7}|DataAccess\\Domain.csproj|c:\\users\\jorje\\source\\repos\\tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-tennisdata\\dataaccess\\models\\configurations\\matchrecordconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC577BD-AD2C-49D2-829B-6B51E9CD2AF7}|DataAccess\\Domain.csproj|solutionrelative:dataaccess\\models\\configurations\\matchrecordconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83BB54F3-D4FB-46E9-AD8B-58AAA74D2091}|TennisData\\TennisData.csproj|c:\\users\\jorje\\source\\repos\\tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-tennisdata\\tennisdata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83BB54F3-D4FB-46E9-AD8B-58AAA74D2091}|TennisData\\TennisData.csproj|solutionrelative:tennisdata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC577BD-AD2C-49D2-829B-6B51E9CD2AF7}|DataAccess\\Domain.csproj|c:\\users\\jorje\\source\\repos\\tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-tennisdata\\dataaccess\\models\\matchrecordcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC577BD-AD2C-49D2-829B-6B51E9CD2AF7}|DataAccess\\Domain.csproj|solutionrelative:dataaccess\\models\\matchrecordcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC577BD-AD2C-49D2-829B-6B51E9CD2AF7}|DataAccess\\Domain.csproj|c:\\users\\jorje\\source\\repos\\tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-tennisdata\\dataaccess\\models\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC577BD-AD2C-49D2-829B-6B51E9CD2AF7}|DataAccess\\Domain.csproj|solutionrelative:dataaccess\\models\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC577BD-AD2C-49D2-829B-6B51E9CD2AF7}|DataAccess\\Domain.csproj|c:\\users\\jorje\\source\\repos\\tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-tennisdata\\dataaccess\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC577BD-AD2C-49D2-829B-6B51E9CD2AF7}|DataAccess\\Domain.csproj|solutionrelative:dataaccess\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC577BD-AD2C-49D2-829B-6B51E9CD2AF7}|DataAccess\\Domain.csproj|c:\\users\\jorje\\source\\repos\\tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-tennisdata\\dataaccess\\models\\imatchrecordcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC577BD-AD2C-49D2-829B-6B51E9CD2AF7}|DataAccess\\Domain.csproj|solutionrelative:dataaccess\\models\\imatchrecordcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCC577BD-AD2C-49D2-829B-6B51E9CD2AF7}|DataAccess\\Domain.csproj|c:\\users\\jorje\\source\\repos\\tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-tennisdata\\dataaccess\\models\\matchrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCC577BD-AD2C-49D2-829B-6B51E9CD2AF7}|DataAccess\\Domain.csproj|solutionrelative:dataaccess\\models\\matchrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jorje\\AppData\\Roaming\\Microsoft\\UserSecrets\\9f3db74a-7aba-4df7-80f9-e37cbbb44248\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83BB54F3-D4FB-46E9-AD8B-58AAA74D2091}|TennisData\\TennisData.csproj|c:\\users\\jorje\\source\\repos\\tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-tennisdata\\tennisdata\\efpt.config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -45,6 +52,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{83BB54F3-D4FB-46E9-AD8B-58AAA74D2091}|TennisData\\TennisData.csproj|c:\\users\\jorje\\source\\repos\\tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-tennisdata\\tennisdata\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{83BB54F3-D4FB-46E9-AD8B-58AAA74D2091}|TennisData\\TennisData.csproj|solutionrelative:tennisdata\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83BB54F3-D4FB-46E9-AD8B-58AAA74D2091}|TennisData\\TennisData.csproj|c:\\users\\jorje\\source\\repos\\tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-tennisdata\\tennisdata\\tennisdata.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{83BB54F3-D4FB-46E9-AD8B-58AAA74D2091}|TennisData\\TennisData.csproj|solutionrelative:tennisdata\\tennisdata.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83BB54F3-D4FB-46E9-AD8B-58AAA74D2091}|TennisData\\TennisData.csproj|c:\\users\\jorje\\source\\repos\\tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-tennisdata\\tennisdata\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,21 +69,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MatchRecordConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\DataAccess\\Models\\Configurations\\MatchRecordConfiguration.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Models\\Configurations\\MatchRecordConfiguration.cs",
+              "ToolTip": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\DataAccess\\Models\\Configurations\\MatchRecordConfiguration.cs",
+              "RelativeToolTip": "DataAccess\\Models\\Configurations\\MatchRecordConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T22:04:18.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MatchRecordContext.cs",
+              "DocumentMoniker": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\DataAccess\\Models\\MatchRecordContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Models\\MatchRecordContext.cs",
+              "ToolTip": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\DataAccess\\Models\\MatchRecordContext.cs",
+              "RelativeToolTip": "DataAccess\\Models\\MatchRecordContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T22:03:29.939Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MatchRecordsController.cs",
+              "DocumentMoniker": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\Controllers\\MatchRecordsController.cs",
+              "RelativeDocumentMoniker": "TennisData\\Controllers\\MatchRecordsController.cs",
+              "ToolTip": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\Controllers\\MatchRecordsController.cs",
+              "RelativeToolTip": "TennisData\\Controllers\\MatchRecordsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T23:54:28.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TodoItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\Controllers\\TodoItemsController.cs",
+              "RelativeDocumentMoniker": "TennisData\\Controllers\\TodoItemsController.cs",
+              "ToolTip": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\Controllers\\TodoItemsController.cs",
+              "RelativeToolTip": "TennisData\\Controllers\\TodoItemsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T19:37:22.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MatchRecordProfile.cs",
+              "DocumentMoniker": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\Profiles\\MatchRecordProfile.cs",
+              "RelativeDocumentMoniker": "TennisData\\Profiles\\MatchRecordProfile.cs",
+              "ToolTip": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\Profiles\\MatchRecordProfile.cs",
+              "RelativeToolTip": "TennisData\\Profiles\\MatchRecordProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T20:12:16.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\Program.cs",
               "RelativeDocumentMoniker": "TennisData\\Program.cs",
               "ToolTip": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\Program.cs",
               "RelativeToolTip": "TennisData\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAACKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-12T19:17:42.09Z",
               "EditorCaption": ""
@@ -80,136 +152,114 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "TodoItemsController.cs",
-              "DocumentMoniker": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\Controllers\\TodoItemsController.cs",
-              "RelativeDocumentMoniker": "TennisData\\Controllers\\TodoItemsController.cs",
-              "ToolTip": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\Controllers\\TodoItemsController.cs",
-              "RelativeToolTip": "TennisData\\Controllers\\TodoItemsController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T19:37:22.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MatchRecordContext.cs",
-              "DocumentMoniker": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\Models\\MatchRecordContext.cs",
-              "RelativeDocumentMoniker": "TennisData\\Models\\MatchRecordContext.cs",
-              "ToolTip": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\Models\\MatchRecordContext.cs",
-              "RelativeToolTip": "TennisData\\Models\\MatchRecordContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAkAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T23:52:26.97Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MatchRecordsController.cs",
-              "DocumentMoniker": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\Controllers\\MatchRecordsController.cs",
-              "RelativeDocumentMoniker": "TennisData\\Controllers\\MatchRecordsController.cs",
-              "ToolTip": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\Controllers\\MatchRecordsController.cs",
-              "RelativeToolTip": "TennisData\\Controllers\\MatchRecordsController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T23:54:28.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "TodoContext.cs",
-              "DocumentMoniker": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\Models\\TodoContext.cs",
-              "RelativeDocumentMoniker": "TennisData\\Models\\TodoContext.cs",
-              "ToolTip": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\Models\\TodoContext.cs",
-              "RelativeToolTip": "TennisData\\Models\\TodoContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\DataAccess\\Models\\TodoContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Models\\TodoContext.cs",
+              "ToolTip": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\DataAccess\\Models\\TodoContext.cs",
+              "RelativeToolTip": "DataAccess\\Models\\TodoContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T19:25:41.83Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MatchRecord.cs",
-              "DocumentMoniker": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\Models\\MatchRecord.cs",
-              "RelativeDocumentMoniker": "TennisData\\Models\\MatchRecord.cs",
-              "ToolTip": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\Models\\MatchRecord.cs",
-              "RelativeToolTip": "TennisData\\Models\\MatchRecord.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T23:52:36.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "TennisData\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\Properties\\launchSettings.json",
-              "RelativeToolTip": "TennisData\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-25T01:00:30.452Z",
+              "WhenOpened": "2024-09-26T22:03:36.991Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "MatchRecordConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\Models\\Configurations\\MatchRecordConfiguration.cs",
-              "RelativeDocumentMoniker": "TennisData\\Models\\Configurations\\MatchRecordConfiguration.cs",
-              "ToolTip": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\Models\\Configurations\\MatchRecordConfiguration.cs",
-              "RelativeToolTip": "TennisData\\Models\\Configurations\\MatchRecordConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "TodoItem.cs",
+              "DocumentMoniker": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\DataAccess\\Models\\TodoItem.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Models\\TodoItem.cs",
+              "ToolTip": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\DataAccess\\Models\\TodoItem.cs",
+              "RelativeToolTip": "DataAccess\\Models\\TodoItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T23:52:54.768Z",
+              "WhenOpened": "2024-09-26T22:03:42.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IMatchRecordContext.cs",
+              "DocumentMoniker": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\DataAccess\\Models\\IMatchRecordContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Models\\IMatchRecordContext.cs",
+              "ToolTip": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\DataAccess\\Models\\IMatchRecordContext.cs",
+              "RelativeToolTip": "DataAccess\\Models\\IMatchRecordContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T22:03:12.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MatchRecord.cs",
+              "DocumentMoniker": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\DataAccess\\Models\\MatchRecord.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Models\\MatchRecord.cs",
+              "ToolTip": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\DataAccess\\Models\\MatchRecord.cs",
+              "RelativeToolTip": "DataAccess\\Models\\MatchRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T22:02:59.951Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\jorje\\AppData\\Roaming\\Microsoft\\UserSecrets\\9f3db74a-7aba-4df7-80f9-e37cbbb44248\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\9f3db74a-7aba-4df7-80f9-e37cbbb44248\\secrets.json",
+              "ToolTip": "C:\\Users\\jorje\\AppData\\Roaming\\Microsoft\\UserSecrets\\9f3db74a-7aba-4df7-80f9-e37cbbb44248\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\9f3db74a-7aba-4df7-80f9-e37cbbb44248\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-26T21:55:00.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\appsettings.json",
               "RelativeDocumentMoniker": "TennisData\\appsettings.json",
               "ToolTip": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\appsettings.json",
               "RelativeToolTip": "TennisData\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-09-24T22:57:47.237Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "efpt.config.json",
               "DocumentMoniker": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\efpt.config.json",
               "RelativeDocumentMoniker": "TennisData\\efpt.config.json",
               "ToolTip": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\efpt.config.json",
               "RelativeToolTip": "TennisData\\efpt.config.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-09-24T22:57:52.917Z",
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TodoItem.cs",
-              "DocumentMoniker": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\Models\\TodoItem.cs",
-              "RelativeDocumentMoniker": "TennisData\\Models\\TodoItem.cs",
-              "ToolTip": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\Models\\TodoItem.cs",
-              "RelativeToolTip": "TennisData\\Models\\TodoItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T19:24:32.287Z",
+              "DocumentIndex": 13,
+              "Title": "TennisData.http",
+              "DocumentMoniker": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\TennisData.http",
+              "RelativeDocumentMoniker": "TennisData\\TennisData.http",
+              "ToolTip": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\TennisData.http",
+              "RelativeToolTip": "TennisData\\TennisData.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-09-25T19:39:05.015Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "TennisData\\WeatherForecast.cs",

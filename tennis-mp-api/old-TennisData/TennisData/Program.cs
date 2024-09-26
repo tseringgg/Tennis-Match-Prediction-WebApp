@@ -1,5 +1,7 @@
+using AutoMapper;
 using Microsoft.EntityFrameworkCore;
-using TennisData.Models;
+using Domain.Models;
+using TennisData.Profiles;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -21,6 +23,17 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+var config = new MapperConfiguration(mc =>
+{
+    mc.AddProfile(new MatchRecordProfile());
+});
+var mapper = config.CreateMapper();
+config.AssertConfigurationIsValid();
+builder.Services.AddSingleton(mapper);
+
+//builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies()); // reflection checks all assemblies, not optimal
+
 
 var app = builder.Build();
 

@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[TennisData.Models.MatchRecord, TennisData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TennisData.Dtos.MatchRecordDto, TennisData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -29,7 +29,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[TennisData.Models.TodoItem, TennisData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Domain.Models.TodoItem, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -49,13 +49,13 @@
     "Parameters": [
       {
         "Name": "todoItem",
-        "Type": "TennisData.Models.TodoItem",
+        "Type": "Domain.Models.TodoItem",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "TennisData.Models.TodoItem",
+        "Type": "Domain.Models.TodoItem",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -81,7 +81,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "TennisData.Models.TodoItem",
+        "Type": "Domain.Models.TodoItem",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -106,7 +106,7 @@
       },
       {
         "Name": "todoItem",
-        "Type": "TennisData.Models.TodoItem",
+        "Type": "Domain.Models.TodoItem",
         "IsRequired": true
       }
     ],

@@ -483,8 +483,6 @@ C:\Users\jorje\source\repos\Tennis-match-prediction\tennis-mp-webapp\tennis-mp-a
 C:\Users\jorje\source\repos\Tennis-match-prediction\tennis-mp-webapp\tennis-mp-api\old-TennisData\TennisData\obj\Debug\net8.0\TennisData.pdb
 C:\Users\jorje\source\repos\Tennis-match-prediction\tennis-mp-webapp\tennis-mp-api\old-TennisData\TennisData\obj\Debug\net8.0\TennisData.genruntimeconfig.cache
 C:\Users\jorje\source\repos\Tennis-match-prediction\tennis-mp-webapp\tennis-mp-api\old-TennisData\TennisData\obj\Debug\net8.0\ref\TennisData.dll
-C:\Users\jorje\source\repos\Tennis-match-prediction\tennis-mp-webapp\tennis-mp-api\old-TennisData\TennisData\obj\Debug\net8.0\TennisData.RazorAssemblyInfo.cache
-C:\Users\jorje\source\repos\Tennis-match-prediction\tennis-mp-webapp\tennis-mp-api\old-TennisData\TennisData\obj\Debug\net8.0\TennisData.RazorAssemblyInfo.cs
 C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\TennisData\bin\Debug\net8.0\appsettings.Development.json
 C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\TennisData\bin\Debug\net8.0\appsettings.json
 C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\TennisData\bin\Debug\net8.0\efpt.config.json
@@ -742,3 +740,6 @@ C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\Tenn
 C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\TennisData\obj\Debug\net8.0\TennisData.pdb
 C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\TennisData\obj\Debug\net8.0\TennisData.genruntimeconfig.cache
 C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\TennisData\obj\Debug\net8.0\ref\TennisData.dll
+C:\Users\jorje\source\repos\Tennis-match-prediction\tennis-mp-webapp\tennis-mp-api\old-TennisData\TennisData\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\jorje\source\repos\Tennis-match-prediction\tennis-mp-webapp\tennis-mp-api\old-TennisData\TennisData\bin\Debug\net8.0\Domain.dll
+C:\Users\jorje\source\repos\Tennis-match-prediction\tennis-mp-webapp\tennis-mp-api\old-TennisData\TennisData\bin\Debug\net8.0\Domain.pdb

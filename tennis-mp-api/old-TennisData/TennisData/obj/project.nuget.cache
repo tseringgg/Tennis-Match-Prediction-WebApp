@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "CAX6boxYNsY=",
+  "dgSpecHash": "XEsWhLpgIC8=",
   "success": true,
-  "projectFilePath": "C:\\git-projects\\Tennis-Match-Prediction-WebApp\\tennis-mp-api\\old-TennisData\\TennisData\\TennisData.csproj",
+  "projectFilePath": "C:\\Users\\jorje\\source\\repos\\Tennis-match-prediction\\tennis-mp-webapp\\tennis-mp-api\\old-TennisData\\TennisData\\TennisData.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jorje\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\jorje\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\jorje\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\jorje\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",

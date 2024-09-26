@@ -5,7 +5,9 @@ VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TennisData", "TennisData\TennisData.csproj", "{83BB54F3-D4FB-46E9-AD8B-58AAA74D2091}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{8E150C13-BAE8-47B6-A4F9-B8C84C2E7D66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{8E150C13-BAE8-47B6-A4F9-B8C84C2E7D66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "DataAccess\Domain.csproj", "{DCC577BD-AD2C-49D2-829B-6B51E9CD2AF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8E150C13-BAE8-47B6-A4F9-B8C84C2E7D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E150C13-BAE8-47B6-A4F9-B8C84C2E7D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E150C13-BAE8-47B6-A4F9-B8C84C2E7D66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCC577BD-AD2C-49D2-829B-6B51E9CD2AF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCC577BD-AD2C-49D2-829B-6B51E9CD2AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCC577BD-AD2C-49D2-829B-6B51E9CD2AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCC577BD-AD2C-49D2-829B-6B51E9CD2AF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
