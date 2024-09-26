@@ -4,9 +4,11 @@ using TennisData.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
 // Add services to the container.
-var connectionString = "Data Source=JORJEI-PC;Initial Catalog=TennisData;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
-builder.Services.AddDbContext<MatchRecordContext>(options => options.UseSqlServer(connectionString));
+//var connectionString = "Data Source=JORJEI-PC;Initial Catalog=TennisData;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
+//builder.Services.AddDbContext<MatchRecordContext>(options => options.UseSqlServer(connectionString));
+builder.Services.AddDbContext<MatchRecordContext>();
 
 builder.Services.AddScoped<IMatchRecordContext>(provider => (IMatchRecordContext)provider.GetRequiredService<MatchRecordContext>());
 

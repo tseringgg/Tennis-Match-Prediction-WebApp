@@ -3,7 +3,7 @@
    "ContextClassName": "MatchRecordContext",
    "ContextNamespace": null,
    "FilterSchemas": false,
-   "IncludeConnectionString": true,
+   "IncludeConnectionString": false,
    "ModelNamespace": null,
    "OutputContextPath": null,
    "OutputPath": "Models",
@@ -11,7 +11,7 @@
    "ProjectRootNamespace": "TennisData",
    "Schemas": null,
    "SelectedHandlebarsLanguage": 2,
-   "SelectedToBeGenerated": 0,
+   "SelectedToBeGenerated": 2,
    "T4TemplatePath": null,
    "Tables": [
       {
