@@ -24,6 +24,17 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddCors(opt =>
+{
+    opt.AddPolicy("AllowSpecificOrigins",
+        builder =>
+        {
+            builder.WithOrigins("http://localhost:4200")
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+        });
+});
+
 var config = new MapperConfiguration(mc =>
 {
     mc.AddProfile(new MatchRecordProfile());
@@ -36,6 +47,8 @@ builder.Services.AddSingleton(mapper);
 
 
 var app = builder.Build();
+
+app.UseCors("AllowSpecificOrigins");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
