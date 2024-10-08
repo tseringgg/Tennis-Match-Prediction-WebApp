@@ -5,6 +5,8 @@ name: Build and deploy ASP.Net Core app to Azure Web App - TennisPredictionsAPI
 
 on:
   push:
+    paths:
+      - 'tennis-mp-api/old-TennisData/**'
     branches:
       - main
   workflow_dispatch:
@@ -20,10 +22,11 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.x'
+          app_location: "./tennis-mp-api/old-TennisData"
 
       - name: Build with dotnet
         run: dotnet build --configuration Release
-
+          
       - name: dotnet publish
         run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
