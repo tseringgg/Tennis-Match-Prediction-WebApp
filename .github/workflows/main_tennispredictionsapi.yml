@@ -6,7 +6,7 @@ name: Build and deploy ASP.Net Core app to Azure Web App - TennisPredictionsAPI
 on:
   push:
     paths:
-      - 'tennis-mp-api/old-TennisData/**'
+      - 'tennis-mp-api/**'
       - '.github/workflows/**'
     branches:
       - main
@@ -25,12 +25,12 @@ jobs:
           dotnet-version: '8.x'
 
       - name: Build with dotnet
-        run: dotnet build tennis-mp-api/old-TennisData --configuration Release
+        run: dotnet build tennis-mp-api/ --configuration Release
           
       - name: dotnet publish
         #run: dotnet publish -c Release -o tennis-mp-api/old-TennisData/DataAccess/Domain.csproj
         #run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
-        run: dotnet publish tennis-mp-api/old-TennisData/DataAccess/Domain.csproj -c Release -o ./myapp
+        run: dotnet publish tennis-mp-api/DataAccess/Domain.csproj -c Release -o ./myapp
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
