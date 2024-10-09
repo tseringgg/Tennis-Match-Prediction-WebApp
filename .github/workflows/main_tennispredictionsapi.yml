@@ -30,7 +30,7 @@ jobs:
       - name: dotnet publish
         #run: dotnet publish -c Release -o tennis-mp-api/old-TennisData/DataAccess/Domain.csproj
         #run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
-        run: dotnet publish -c Release
+        run: dotnet publish DataAccess/Domain.csproj -c Release
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
