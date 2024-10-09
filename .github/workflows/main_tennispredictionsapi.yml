@@ -28,7 +28,7 @@ jobs:
         run: dotnet build tennis-mp-api/old-TennisData --configuration Release
           
       - name: dotnet publish
-        run: dotnet publish -c Release -o tennis-mp-api/old-TennisData
+        run: dotnet publish -c Release -o tennis-mp-api/old-TennisData/TennisData
         #run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
       - name: Upload artifact for deployment job
