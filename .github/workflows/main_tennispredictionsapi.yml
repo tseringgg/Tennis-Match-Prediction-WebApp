@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - 'tennis-mp-api/old-TennisData/**'
+      - '.github/workflows/**'
     branches:
       - main
   workflow_dispatch:
@@ -27,13 +28,15 @@ jobs:
         run: dotnet build tennis-mp-api/old-TennisData --configuration Release
           
       - name: dotnet publish
-        run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
+        run: dotnet publish -c Release -o tennis-mp-api/old-TennisData
+        #run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: .net-app
-          path: ${{env.DOTNET_ROOT}}/myapp
+          path: tennis-mp-api/old-TennisData
+          #path: ${{env.DOTNET_ROOT}}/myapp
 
   deploy:
     runs-on: windows-latest
