@@ -1,0 +1,12 @@
+C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\Application\bin\Debug\net8.0\Application.deps.json
+C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\Application\bin\Debug\net8.0\Application.dll
+C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\Application\bin\Debug\net8.0\Application.pdb
+C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\Application\obj\Debug\net8.0\Application.sourcelink.json
+C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\Application\obj\Debug\net8.0\Application.dll
+C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\Application\obj\Debug\net8.0\refint\Application.dll
+C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\Application\obj\Debug\net8.0\Application.pdb
+C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\Application\obj\Debug\net8.0\ref\Application.dll

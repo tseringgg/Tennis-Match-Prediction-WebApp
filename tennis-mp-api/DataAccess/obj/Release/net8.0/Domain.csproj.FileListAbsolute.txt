@@ -1,0 +1,15 @@
+C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\DataAccess\bin\Release\net8.0\Domain.deps.json
+C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\DataAccess\bin\Release\net8.0\Domain.runtimeconfig.json
+C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\DataAccess\bin\Release\net8.0\Domain.dll
+C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\DataAccess\bin\Release\net8.0\Domain.pdb
+C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\DataAccess\obj\Release\net8.0\Domain.csproj.AssemblyReference.cache
+C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\DataAccess\obj\Release\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\DataAccess\obj\Release\net8.0\Domain.AssemblyInfoInputs.cache
+C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\DataAccess\obj\Release\net8.0\Domain.AssemblyInfo.cs
+C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\DataAccess\obj\Release\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\DataAccess\obj\Release\net8.0\Domain.sourcelink.json
+C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\DataAccess\obj\Release\net8.0\Domain.dll
+C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\DataAccess\obj\Release\net8.0\refint\Domain.dll
+C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\DataAccess\obj\Release\net8.0\Domain.pdb
+C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\DataAccess\obj\Release\net8.0\Domain.genruntimeconfig.cache
+C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\DataAccess\obj\Release\net8.0\ref\Domain.dll

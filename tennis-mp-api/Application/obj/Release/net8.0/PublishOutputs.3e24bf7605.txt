@@ -1,0 +1,3 @@
+C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\Application\bin\Release\net8.0\publish\Application.dll
+C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\Application\bin\Release\net8.0\publish\Application.deps.json
+C:\git-projects\Tennis-Match-Prediction-WebApp\tennis-mp-api\old-TennisData\Application\bin\Release\net8.0\publish\Application.pdb
