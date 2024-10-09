@@ -38,7 +38,7 @@ jobs:
           name: .net-app
           #path: tennis-mp-api/old-TennisData
           #path: ${{env.DOTNET_ROOT}}/myapp
-          path: tennis-mp-api/old-tennisData/TennisData/bin/Release/net8.0/publish
+          path: tennis-mp-api/old-tennisData/myapp
 
   deploy:
     runs-on: windows-latest
