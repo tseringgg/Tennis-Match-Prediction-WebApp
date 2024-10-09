@@ -29,14 +29,16 @@ jobs:
           
       - name: dotnet publish
         #run: dotnet publish -c Release -o tennis-mp-api/old-TennisData/DataAccess/Domain.csproj
-        run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
+        #run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
+        run: dotnet publish -c Release
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: .net-app
           #path: tennis-mp-api/old-TennisData
-          path: ${{env.DOTNET_ROOT}}/myapp
+          #path: ${{env.DOTNET_ROOT}}/myapp
+          path: tennis-mp-api/old-tennisData/TennisData/bin/Release/net8.0/publish
 
   deploy:
     runs-on: windows-latest
