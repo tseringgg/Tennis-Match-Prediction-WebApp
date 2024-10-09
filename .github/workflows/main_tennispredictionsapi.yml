@@ -22,13 +22,12 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.x'
-          app_location: "./tennis-mp-api/old-TennisData"
 
       - name: Build with dotnet
-        run: dotnet build --configuration Release
+        run: dotnet build ./tennis-mp-api/old-TennisData --configuration Release
           
       - name: dotnet publish
-        run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
+        run: dotnet publish ./tennis-mp-api/old-TennisData -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
