@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s/gRRnOrGf0=",
+  "dgSpecHash": "Fp0mE2zmBK0=",
   "success": true,
-  "projectFilePath": "C:\\git-projects\\Tennis-Match-Prediction-WebApp\\tennis-mp-api\\old-TennisData\\DataAccess\\Domain.csproj",
+  "projectFilePath": "C:\\git-projects\\Tennis-Match-Prediction-WebApp\\tennis-mp-api\\DataAccess\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jorje\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\jorje\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

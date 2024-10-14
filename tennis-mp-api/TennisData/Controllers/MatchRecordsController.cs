@@ -37,5 +37,39 @@ namespace TennisData.Controllers
             return Ok(x);
         }
 
+        [HttpGet("recent-match/{playerName}")]
+        public async Task<ActionResult<MatchRecordDto>> GetRecentMatch(string playerName)
+        {
+            var match = await _context.MatchRecords
+                .Where(m => m.p0_name == playerName || m.p1_name == playerName)
+                .OrderByDescending(m => m.tny_date)
+                .FirstOrDefaultAsync();
+
+            if (match == null)
+            {
+                return NotFound();
+            }
+            var x = _mapper.Map<MatchRecordDto>(match);
+            return Ok(x);
+        }
+
+        [HttpGet("matches-between/{player1}/{player2}")]
+        public async Task<ActionResult<IEnumerable<MatchRecordDto>>> GetMatchesBetweenPlayers(string player1, string player2)
+        {
+            var matches = await _context.MatchRecords
+                .Where(m =>
+                    (m.p0_name == player1 && m.p1_name == player2) ||
+                    (m.p0_name == player2 && m.p1_name == player1))
+                .ToListAsync();
+
+            if (!matches.Any())
+            {
+                return NotFound();
+            }
+            var x = _mapper.Map<IEnumerable<MatchRecordDto>>(matches);
+
+            return Ok(x);
+        }
+
     }
 }

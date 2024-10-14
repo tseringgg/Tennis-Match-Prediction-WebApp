@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YFdJEr0CeT8=",
+  "dgSpecHash": "29TU7yPrC3E=",
   "success": true,
-  "projectFilePath": "C:\\git-projects\\Tennis-Match-Prediction-WebApp\\tennis-mp-api\\old-TennisData\\TennisData\\TennisData.csproj",
+  "projectFilePath": "C:\\git-projects\\Tennis-Match-Prediction-WebApp\\tennis-mp-api\\TennisData\\TennisData.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jorje\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\jorje\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

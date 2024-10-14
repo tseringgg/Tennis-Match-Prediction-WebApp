@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\git-projects\\Tennis-Match-Prediction-WebApp\\tennis-mp-api\\old-TennisData\\Application\\Application.csproj": {}
+    "C:\\git-projects\\Tennis-Match-Prediction-WebApp\\tennis-mp-api\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\git-projects\\Tennis-Match-Prediction-WebApp\\tennis-mp-api\\old-TennisData\\Application\\Application.csproj": {
+    "C:\\git-projects\\Tennis-Match-Prediction-WebApp\\tennis-mp-api\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\git-projects\\Tennis-Match-Prediction-WebApp\\tennis-mp-api\\old-TennisData\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\git-projects\\Tennis-Match-Prediction-WebApp\\tennis-mp-api\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\git-projects\\Tennis-Match-Prediction-WebApp\\tennis-mp-api\\old-TennisData\\Application\\Application.csproj",
+        "projectPath": "C:\\git-projects\\Tennis-Match-Prediction-WebApp\\tennis-mp-api\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\jorje\\.nuget\\packages\\",
-        "outputPath": "C:\\git-projects\\Tennis-Match-Prediction-WebApp\\tennis-mp-api\\old-TennisData\\Application\\obj\\",
+        "outputPath": "C:\\git-projects\\Tennis-Match-Prediction-WebApp\\tennis-mp-api\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jorje\\AppData\\Roaming\\NuGet\\NuGet.Config",
