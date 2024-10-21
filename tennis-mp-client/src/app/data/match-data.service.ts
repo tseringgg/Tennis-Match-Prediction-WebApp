@@ -22,4 +22,11 @@ export class MatchDataService {
     // https://v17.angular.io/guide/http-configure-http-url-parameters
     // example: api/heroes?name=cat
   }
+
+  getMatchesBetween(player1: string, player2: string, pageSize: number, pageIndex: number) {
+    //let result = this.http.get<any[]>(this.url+'/matches-between/'+player1+'/'+player2, {observe: 'response'})
+    let result = this.http.get<any[]>(`${this.url}/matches-between/${player1}/${player2}?pageSize=${pageSize}&pageNumber=${pageIndex}`, {observe: 'response'})
+    console.log(result);
+    return result;
+  }
 }

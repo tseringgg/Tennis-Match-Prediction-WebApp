@@ -30,10 +30,12 @@ namespace TennisData.Controllers
         {
             //return View(await _context.MatchRecords.ToListAsync());
             var result = await _context.MatchRecords.Take(10).ToListAsync();
+            //var result = await _context.MatchRecords.ToListAsync();
 
             //return Ok(_mapper.Map<IEnumerable<MatchRecordDto>>(result));
-            
+
             var x = _mapper.Map<IEnumerable<MatchRecordDto>>(result);
+            
             return Ok(x);
         }
 
@@ -54,21 +56,37 @@ namespace TennisData.Controllers
         }
 
         [HttpGet("matches-between/{player1}/{player2}")]
-        public async Task<ActionResult<IEnumerable<MatchRecordDto>>> GetMatchesBetweenPlayers(string player1, string player2)
+        public async Task<ActionResult<IEnumerable<MatchRecordDto>>> GetMatchesBetweenPlayers(string player1, string player2, [FromQuery] int pageSize = 10, [FromQuery] int pageNumber = 0)
         {
             var matches = await _context.MatchRecords
                 .Where(m =>
                     (m.p0_name == player1 && m.p1_name == player2) ||
                     (m.p0_name == player2 && m.p1_name == player1))
+                .OrderBy(x => x.id)
+                .Skip(pageNumber * pageSize)
+                .Take(pageSize)
                 .ToListAsync();
+            var matchCount = await _context.MatchRecords
+                .Where(m =>
+                    (m.p0_name == player1 && m.p1_name == player2) ||
+                    (m.p0_name == player2 && m.p1_name == player1))
+                .CountAsync();
 
             if (!matches.Any())
             {
                 return NotFound();
             }
             var x = _mapper.Map<IEnumerable<MatchRecordDto>>(matches);
-
+            SetPaginationHeader(matchCount);
             return Ok(x);
+        }
+
+        private void SetPaginationHeader (int totalRecords)
+        {
+            Response.Headers.Add("X-Pagination", Newtonsoft.Json.JsonConvert.SerializeObject(new
+            {
+                totalRecords
+            }));
         }
 
     }

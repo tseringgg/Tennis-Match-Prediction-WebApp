@@ -1,0 +1,109 @@
+<p>match-lookup works!</p>
+
+<button (click)="fetchMatches()">Get Matches</button>
+
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <mat-label>Player 1</mat-label>
+    <input type="text"
+            placeholder="Pick one"
+            aria-label="Number1"
+            matInput
+            [formControl]="myControl1"
+            [matAutocomplete]="auto1">
+    <mat-autocomplete autoActiveFirstOption1 #auto1="matAutocomplete">
+      @for (option1 of filteredOptions1 | async; track option1) {
+        <mat-option [value]="option1">{{option1}}</mat-option>
+      }
+    </mat-autocomplete>
+  </mat-form-field>
+</form>
+
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <mat-label>Player 2</mat-label>
+    <input type="text"
+            placeholder="Pick one"
+            aria-label="Number2"
+            matInput
+            [formControl]="myControl2"
+            [matAutocomplete]="auto2">
+    <mat-autocomplete autoActiveFirstOption2 #auto2="matAutocomplete">
+      @for (option2 of filteredOptions2 | async; track option2) {
+        <mat-option [value]="option2">{{option2}}</mat-option>
+      }
+    </mat-autocomplete>
+  </mat-form-field>
+</form>
+
+
+<div *ngIf="matches">
+  <!-- Display the matches here -->
+</div>
+
+<div class="example-container mat-elevation-z8">
+  @if (isLoadingResults || isRateLimitReached) {
+    <div class="example-loading-shade">
+      @if (isLoadingResults) {
+        <mat-spinner></mat-spinner>
+      }
+      @if (isRateLimitReached) {
+        <div class="example-rate-limit-reached">
+          GitHub's API rate limit has been reached. It will be reset in one minute.
+        </div>
+      }
+    </div>
+  }
+
+  <div class="example-table-container">
+
+    <table mat-table [dataSource]="matches" class="example-table"
+           matSort matSortActive="tny_date" matSortDisableClear matSortDirection="desc">
+      <!-- Number Column -->
+      <ng-container matColumnDef="p1_name">
+        <th mat-header-cell *matHeaderCellDef>p1_name</th>
+        <td mat-cell *matCellDef="let row">{{row.p1_name}}</td>
+      </ng-container>
+
+      <!-- Title Column -->
+      <ng-container matColumnDef="score">
+        <th mat-header-cell *matHeaderCellDef>Score</th>
+        <td mat-cell *matCellDef="let row">{{row.score}}</td>
+      </ng-container>
+
+      <!-- State Column -->
+      <ng-container matColumnDef="p0_name">
+        <th mat-header-cell *matHeaderCellDef>p0_name</th>
+        <td mat-cell *matCellDef="let row">{{row.p0_name}}</td>
+      </ng-container>
+
+      <!-- Created Column -->
+      <ng-container matColumnDef="tny_date">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header disableClear>
+          Date
+        </th>
+        <td mat-cell *matCellDef="let row">{{row.tny_date | date}}</td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+  </div>
+
+  <!-- <mat-paginator #paginator (page)="handlePageEvent($event)" [length]="resultsLength" [pageSize]="pageSize"  -->
+    <!-- [pageSizeOptions]="pageSizeOptions" [pageIndex]="pageIndex" aria-label="Select page of GitHub search results"></mat-paginator> -->
+
+    <mat-paginator #paginator
+    class="demo-paginator"
+    (page)="handlePageEvent($event)"
+    [length]="resultsLength"
+    [pageSize]="pageSize"
+    [disabled]="disabled"
+    [showFirstLastButtons]="showFirstLastButtons"
+    [pageSizeOptions]="showPageSizeOptions ? pageSizeOptions : []"
+    [hidePageSize]="hidePageSize"
+    [pageIndex]="pageIndex"
+    aria-label="Select page">
+</mat-paginator>
+</div>
+
