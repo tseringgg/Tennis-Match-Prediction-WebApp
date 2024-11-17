@@ -153,8 +153,8 @@ export class MatchLookupComponent implements OnInit {
       this.matchDataService.getMatchesBetween(player1, player2, pageSize, pageIndex)
         .subscribe({
           next: (resp) => {
-            const reqHeader = JSON.parse(resp.headers.get("X-Pagination")!);
-            this.resultsLength = reqHeader.totalRecords;
+            //const reqHeader = JSON.parse(resp.headers.get("X-Pagination")!);
+            //this.resultsLength = reqHeader.totalRecords;
             this.matches = resp.body as Match[];
             
           // alert(this.matchData.heroesUrl);
